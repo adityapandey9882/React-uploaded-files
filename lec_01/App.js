@@ -25,7 +25,7 @@ const parent = React.createElement(
                  {id:"class"},
                   "I'm an h2 tag")] 
         )
-);
+); 
 console.log(parent);
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(parent)
